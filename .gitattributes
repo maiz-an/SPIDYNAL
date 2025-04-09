@@ -1,5 +1,0 @@
-*.py linguist-detectable=true
-*.md linguist-documentation
-*.html linguist-documentation
-*.TeX linguist-documentation
-*.toc linguist-documentation
