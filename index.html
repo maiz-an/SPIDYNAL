@@ -6,32 +6,39 @@
   <title>SPIDYNAL System</title>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
       font-family: 'Share Tech Mono', monospace;
-      background-color: #0d0d0d;
+      background-color: #0a0a0a;
       color: #00ffcc;
       line-height: 1.6;
+      background-image: radial-gradient(circle at top left, #1a1a1a, #000000);
     }
     header {
       background: linear-gradient(to right, #000000, #1f1f1f);
-      padding: 2rem 1rem;
+      padding: 3rem 1rem 2rem;
       text-align: center;
       border-bottom: 2px solid #00ffcc;
+      box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
     }
     header h1 {
-      font-size: 3rem;
+      font-size: 4rem;
       color: #ff0044;
+      text-shadow: 0 0 5px #ff0044, 0 0 10px #ff0044;
     }
     .tagline {
       color: #ffffff;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       margin-top: 0.5rem;
     }
     section {
       padding: 2rem;
       max-width: 900px;
       margin: auto;
+      animation: fadeIn 1.5s ease-in;
     }
     h2 {
       color: #ffcc00;
@@ -47,24 +54,40 @@
       padding: 1rem;
       border-radius: 8px;
       margin-top: 2rem;
+      text-align: center;
     }
     .download a {
       color: #00ffcc;
       text-decoration: none;
       display: inline-block;
-      margin-top: 0.5rem;
+      margin: 0.5rem 1rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid #00ffcc;
+      border-radius: 4px;
+      transition: background 0.3s ease;
+    }
+    .download a:hover {
+      background-color: #00ffcc;
+      color: #000;
     }
     footer {
       text-align: center;
       padding: 1rem;
       color: #777;
       font-size: 0.9rem;
+      background-color: #000;
+      border-top: 1px solid #333;
     }
     .ascii-art {
       white-space: pre;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       text-align: center;
       color: #ff0044;
+      padding-top: 1rem;
+    }
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: translateY(10px);}
+      100% {opacity: 1; transform: translateY(0);}
     }
   </style>
 </head>
@@ -85,13 +108,13 @@
   <section class="features">
     <h2>🚀 Features</h2>
     <ul>
-      <li>Real-time audio responses with themed sound effects</li>
-      <li>Smart file scanner across all connected drives</li>
-      <li>Network speed analyzer</li>
-      <li>Quote engine powered by Spidy's wit</li>
-      <li>Dark hacker mode + voice mode</li>
-      <li>ASCII art and animated loaders</li>
-      <li>Modular add-ons like SPIDY LENS™</li>
+      <li>🎧 Real-time audio responses with themed sound effects</li>
+      <li>📁 Smart file scanner across all connected drives</li>
+      <li>🌐 Network speed analyzer</li>
+      <li>🕸️ Quote engine powered by Spidy's wit</li>
+      <li>💀 Dark hacker mode + voice mode</li>
+      <li>🎨 ASCII art and animated loaders</li>
+      <li>🧩 Modular add-ons like SPIDY LENS™</li>
     </ul>
   </section>
 
@@ -108,10 +131,10 @@
 ███    ███   ███    ███   ███  ███   ▀███ ███   ██▄     
 ███    █▀    ███    ███   ███▌ ███    ███ ███▄▄▄███     
 ███          ███    ███   ███▌ ███    ███ ▀▀▀▀▀▀███     
-▀███████████ ▀█████████▀  ███▌ ███    ███ ▄██   ███   
-         ███   ███        ███  ███    ███ ███   ███   
-   ▄█    ███   ███        ███  ███   ▄███ ███   ███   
- ▄████████▀   ▄████▀      █▀   ████████▀   ▀█████▀    
+▀███████████ ▀█████████▀  ███▌ ███    ███ ▄██   ███     
+         ███   ███        ███  ███    ███ ███   ███     
+   ▄█    ███   ███        ███  ███   ▄███ ███   ███     
+ ▄████████▀   ▄████▀      █▀   ████████▀   ▀█████▀      
 </pre>
   </section>
 
